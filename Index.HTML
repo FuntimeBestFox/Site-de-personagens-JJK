@@ -1,54 +1,151 @@
 
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Explore o universo de Jujutsu Kaisen, conheça os personagens, suas histórias e técnicas amaldiçoadas.">
+
     <title>Jujutsu Kaisen | Universo Amaldiçoado</title>
+
     <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700;900&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
 </head>
+
 <body>
 
-    <header>
-        <h1>JUJUTSU KAISEN</h1>
+    <!-- CABEÇALHO -->
+    <header class="header">
 
-        <nav>
+        <a href="#inicio" class="logo">
+            JUJUTSU <span>KAISEN</span>
+        </a>
+
+        <nav class="navbar">
             <a href="#inicio">Início</a>
             <a href="#personagens">Personagens</a>
-            <a href="#sobre">Sobre</a>
+            <a href="#sobre">Sobre o anime</a>
         </nav>
+
     </header>
 
+
     <main>
+
+        <!-- INÍCIO -->
         <section id="inicio" class="hero">
-            <h2>ENTRE NO MUNDO DAS MALDIÇÕES</h2>
-            <p>Conheça os feiticeiros, suas histórias
-            e suas técnicas amaldiçoadas.</p>
 
-            <button onclick="explorar()">
-                EXPLORAR PERSONAGENS
-            </button>
+            <div class="hero-content">
+
+                <span class="subtitle">
+                    O UNIVERSO DAS MALDIÇÕES
+                </span>
+
+                <h1>
+                    ENTRE NO MUNDO DE
+                    <span>JUJUTSU KAISEN</span>
+                </h1>
+
+                <p>
+                    Conheça os feiticeiros jujutsu,
+                    suas histórias, poderes e técnicas
+                    amaldiçoadas.
+                </p>
+
+                <a href="#personagens" class="btn">
+                    EXPLORAR PERSONAGENS
+                </a>
+
+            </div>
+
+            <div class="hero-overlay"></div>
+
         </section>
 
-        <section id="personagens">
-            <h2>PERSONAGENS</h2>
-            <div id="lista-personagens"></div>
+
+        <!-- PERSONAGENS -->
+        <section id="personagens" class="personagens">
+
+            <div class="section-title">
+
+                <span>CONHEÇA OS FEITICEIROS</span>
+
+                <h2>
+                    PERSONAGENS
+                </h2>
+
+                <p>
+                    Descubra as histórias de quem luta
+                    contra as maldições.
+                </p>
+
+            </div>
+
+            <div id="lista-personagens" class="cards-container">
+
+                <!-- Os personagens serão adicionados pelo JavaScript -->
+
+            </div>
+
         </section>
 
-        <section id="sobre">
-            <h2>Sobre Jujutsu Kaisen</h2>
-            <p>
-                Um universo onde emoções negativas
-                dão origem a maldições e feiticeiros
-                lutam para proteger a humanidade.
-            </p>
+
+        <!-- SOBRE -->
+        <section id="sobre" class="sobre">
+
+            <div class="sobre-content">
+
+                <span>O UNIVERSO JUJUTSU</span>
+
+                <h2>
+                    O QUE É JUJUTSU KAISEN?
+                </h2>
+
+                <p>
+                    Jujutsu Kaisen é uma obra que apresenta
+                    um mundo onde emoções negativas humanas
+                    dão origem a criaturas conhecidas como
+                    maldições.
+
+                    Para combater essas ameaças, existem
+                    feiticeiros jujutsu que utilizam energia
+                    amaldiçoada e técnicas especiais.
+                </p>
+
+            </div>
+
         </section>
+
     </main>
 
-    <footer>
-        <p>© 2026 - Universo Jujutsu Kaisen</p>
+
+    <!-- RODAPÉ -->
+    <footer class="footer">
+
+        <h2>JUJUTSU KAISEN</h2>
+
+        <p>
+            Um universo repleto de mistérios,
+            poderes e maldições.
+        </p>
+
+        <span>
+            © 2026 - Projeto de fã, sem vínculo oficial com os criadores.
+        </span>
+
     </footer>
 
+
     <script src="script.js"></script>
+
 </body>
+
 </html>
+
